@@ -43,4 +43,35 @@
  /* failure style */
  .failure{
     display: flex;
+    margin-top: 100px;
+    margin-bottom: 200px;
+ }
+ .failure img{
+ margin-left: 206px;
+ margin-right: 87px;
+}
+ .fail-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-top:300px ;
+    margin-right:450px ;
+    margin-bottom: 24px ;
+    /* margin:300px 450px 24px 87px; */
+ }
+ .fail-para{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-right:322px  ;
+    margin-bottom:16px ;
+    
+ }
+ .fail-list
+ {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-right:400px ;
+    
  }
