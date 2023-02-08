@@ -75,3 +75,38 @@
     margin-right:400px ;
     
  }
+ /* plan style */
+
+ .plans{
+    display: flex;
+    justify-content: space-between;
+   margin:50px 230px;
+   text-align: center;
+ }
+ .plan-title{
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #151414;
+ }
+ .plan-subtitle{
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: #151414;
+    margin-top:20px ;
+ }
+ .plan-para{
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    color: #737272;
+    margin-top: 16px;
+ }
+ footer{
+    background: #151414;
+    display: flex;
+    justify-content: space-between;
+    height: 577px;
+    color: #ffffff;
+ }
