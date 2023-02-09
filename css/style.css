@@ -2,9 +2,11 @@
     margin: 0;
     font-family: sans-serif;
 }
-/* .btn-1{
-  
-} */
+.btn-1{
+   color: #005FAC;
+    background-color: #ffffff;
+    border: 2px solid #005FAC ;
+}
  /* header style */
  header{
     height: 808px;
@@ -32,13 +34,8 @@
  .head-btn{
     font-weight: 600;
     font-size: 16px;
-    /* text-align: right; */
     margin: 0px 230px 187px 1220px;
-    color: #005FAC;
-    background-color: #ffffff;
     padding: 15px 20px;
-    border: 2px solid #005FAC ;
-    
  }
  /* failure style */
  .failure{
@@ -57,7 +54,7 @@
     margin-top:300px ;
     margin-right:450px ;
     margin-bottom: 24px ;
-    /* margin:300px 450px 24px 87px; */
+
  }
  .fail-para{
     font-weight: 400;
@@ -65,17 +62,17 @@
     color: #444343;
     margin-right:322px  ;
     margin-bottom:16px ;
-    
+    line-height: 26px;
  }
  .fail-list
  {
     font-weight: 400;
     font-size: 16px;
     color: #444343;
-    margin-right:400px ;
-    
+    margin-right:400px ; 
+    line-height: 26px;
  }
- /* plan style */
+ /* my plan style */
 
  .plans{
     display: flex;
@@ -103,6 +100,29 @@
     color: #737272;
     margin-top: 16px;
  }
+ .mindset{
+   margin: 125px 230px 130px 230px;
+   height: 300px;
+   background-image: linear-gradient(to left, rgba(255, 255, 255, 0.017), rgba(0, 95, 172, 0.942)),
+   url('../images/watch.png');
+   /* background-size: cover; */
+   background-repeat: no-repeat;
+   background-position: center;
+ }
+ .mindset-title{
+ 
+   padding:59px 617px 24px 64px ;
+   font-weight:400 ;
+   font-size: 40px;
+   color: #ffffff;
+ }
+ .mindset-btn{
+   margin-left: 64px;
+   padding: 15px 25px;
+   font-weight: 600;
+   font-size: 20px;
+ }
+ /* footer style */
  footer{
     background: #151414;
     display: flex;
@@ -157,7 +177,7 @@
 }
 .subscribe input[type="submit"]{
   padding: 12px 20px ;
-   background-color: #005FAC;
+   background-color: #005fac;
    border-radius: 3px;
    color: #FFFFFF;
    border: 1px solid #005FAC;
