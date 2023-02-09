@@ -41,7 +41,7 @@
  .failure{
     display: flex;
     margin-top: 100px;
-    margin-bottom: 120px;
+    margin-bottom: 130px;
  }
  .failure img{
  margin-left: 206px;
@@ -76,9 +76,9 @@
  /* about style */
 
 .about{
-   max-width: 800px;
+   max-width: 900px;
    margin: 0 auto;
-   background-color:  rgb(95, 156, 236);
+   background-color:  #5798ee;
    border-radius: 10px;
    padding: 120px 130px;
  
@@ -93,7 +93,7 @@
 }
 .about-para{
    font-weight: 500;
-   font-size: 18px;
+   font-size: 20px;
    line-height: 30px;
    text-align: center;
    color: #00123b;
