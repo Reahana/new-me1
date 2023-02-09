@@ -2,20 +2,19 @@
     margin: 0;
     font-family: sans-serif;
 }
+/* button */
 .btn-1{
-   color: #005FAC;
+    color: #005FAC;
     background-color: #ffffff;
     border: 2px solid #005FAC ;
 }
  /* header style */
  header{
     height: 808px;
-    background-image: url(../images/banner/banner3.png);
-    
+    background-image: url(../images/banner/banner3.png);  
 }
 .bannar{
-    float: right;
-    
+    float: right;  
  }
 .head-title{
     font-weight: 700;
@@ -27,9 +26,11 @@
 .head-para{
     font-weight: 400;
     font-size: 16px;
+    line-height: 26px;
     text-align: right;
     color: #FFFFFF;
     margin: 0px 230px 32px 845px;
+    padding-left: 20px;
  }
  .head-btn{
     font-weight: 600;
@@ -37,6 +38,7 @@
     margin: 0px 230px 187px 1220px;
     padding: 15px 20px;
  }
+
  /* failure style */
  .failure{
     display: flex;
@@ -44,8 +46,8 @@
     margin-bottom: 130px;
  }
  .failure img{
- margin-left: 206px;
- margin-right: 87px;
+   margin-left: 206px;
+   margin-right: 87px;
 }
  .fail-title{
     font-weight: 700;
@@ -54,7 +56,6 @@
     margin-top:300px ;
     margin-right:450px ;
     margin-bottom: 24px ;
-
  }
  .fail-para{
     font-weight: 400;
@@ -81,7 +82,6 @@
    background-color:  #5798ee;
    border-radius: 10px;
    padding: 120px 130px;
- 
 }
 .about-title{
    text-align: center;
@@ -191,7 +191,6 @@
    font-weight: 400;
    font-size: 16px;
    line-height: 26px;
-
 }
 .foot-info{
    margin-bottom: 16px;
