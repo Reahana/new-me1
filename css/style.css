@@ -41,7 +41,7 @@
  .failure{
     display: flex;
     margin-top: 100px;
-    margin-bottom: 200px;
+    margin-bottom: 120px;
  }
  .failure img{
  margin-left: 206px;
@@ -72,14 +72,60 @@
     margin-right:400px ; 
     line-height: 26px;
  }
- /* my plan style */
 
- .plans{
-    display: flex;
-    justify-content: space-between;
-   margin:50px 230px;
+ /* about style */
+
+.about{
+   max-width: 800px;
+   margin: 0 auto;
+   background-color:  rgb(95, 156, 236);
+   border-radius: 10px;
+   padding: 120px 130px;
+ 
+}
+.about-title{
    text-align: center;
+   margin-bottom: 30px;
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 48px;
+   color: #ffffff;
+}
+.about-para{
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 30px;
+   text-align: center;
+   color: #00123b;
+   margin-bottom: 30px;
+}
+.about-info-container{
+   display: flex;
+   justify-content: space-around;
+}
+.info-title{
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 30px;
+   color: #010102;
+}
+.info-value{
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 30px;
+   color: #f6f6ff;
+}
+
+ /* my plan style */
+ .my-plan{
+   margin-top: 150px;
  }
+ .plans{
+      display: flex;
+      justify-content: space-between;
+      margin:50px 230px;
+      text-align: center;
+   }
  .plan-title{
     font-weight: 700;
     font-size: 40px;
@@ -105,12 +151,10 @@
    height: 300px;
    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.017), rgba(0, 95, 172, 0.942)),
    url('../images/watch.png');
-   /* background-size: cover; */
    background-repeat: no-repeat;
    background-position: center;
  }
  .mindset-title{
- 
    padding:59px 617px 24px 64px ;
    font-weight:400 ;
    font-size: 40px;
